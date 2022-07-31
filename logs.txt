@@ -1,0 +1,201 @@
+commit 41cb11d99952cee100ff17c415440da62a75a45b
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sat Jul 30 21:57:29 2022 -0400
+
+    eliminacion de archivo
+
+diff --git a/prueba.txt b/prueba.txt
+deleted file mode 100644
+index e69de29..0000000
+
+commit 17cbabfe03272df2630452140476c729f03243fa
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sat Jul 30 21:55:38 2022 -0400
+
+    prueba
+
+diff --git a/prueba.txt b/prueba.txt
+new file mode 100644
+index 0000000..e69de29
+
+commit 4d9b4cdf7549512024b5f1c30cc1d35f70c10f65
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sat Jul 30 20:03:49 2022 -0400
+
+    more changes
+
+diff --git a/test.txt b/test.txt
+index aad8780..e71f022 100644
+--- a/test.txt
++++ b/test.txt
+@@ -4,6 +4,4 @@ Este cambio es desde la rama develop.
+ 
+ Este cambio es desde la rama master
+ 
+-Prueba
+-
+-hola mundo
+\ No newline at end of file
++Prueba
+\ No newline at end of file
+
+commit a4af78f49cf7a0bfdb0782a792021e9c0bde8a3b
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sat Jul 30 20:03:04 2022 -0400
+
+    changes
+
+diff --git a/test.txt b/test.txt
+index e71f022..aad8780 100644
+--- a/test.txt
++++ b/test.txt
+@@ -4,4 +4,6 @@ Este cambio es desde la rama develop.
+ 
+ Este cambio es desde la rama master
+ 
+-Prueba
+\ No newline at end of file
++Prueba
++
++hola mundo
+\ No newline at end of file
+
+commit dfba728663e7248ea252ba09e286a016bfe14976
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sat Jul 30 19:15:10 2022 -0400
+
+    test
+
+diff --git a/test.txt b/test.txt
+index f4b5b0e..e71f022 100644
+--- a/test.txt
++++ b/test.txt
+@@ -3,3 +3,5 @@ Hola mundo, este es el segundo commit, tercero, cuarto desde la terminal.
+ Este cambio es desde la rama develop.
+ 
+ Este cambio es desde la rama master
++
++Prueba
+\ No newline at end of file
+
+commit 5f563611b42b4eab4322793b8138acb1c1e0f10d
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sat Jul 30 18:44:40 2022 -0400
+
+    develop master & commands (hicimos pruebas de git reset)
+
+diff --git a/.DS_Store b/.DS_Store
+index df36517..0d7c8cb 100644
+Binary files a/.DS_Store and b/.DS_Store differ
+diff --git a/commands.txt b/commands.txt
+new file mode 100644
+index 0000000..b89ec75
+--- /dev/null
++++ b/commands.txt
+@@ -0,0 +1,25 @@
++pwd nos muestra el path o ruta de la carpeta en donde nos encontramos ubicados
++
++cd me permite acceder (entrar) a una carpeta en un nivel o varios niveles
++
++cd .. me permite salir de una carpeta en un nivel o varios niveles OJO los dos puntos deben ser separados por un espacio del comando cd
++
++ls me muestra los archivos que contiene una carpeta, puede ser la ubicación actual o una ruta especifica, no muestra los archivos ocultos
++
++ls -a me muestra los archivos que contiene una carpeta, puede ser la ubicación actual o una ruta especifica, incluyendo los archivos ocultos
++
++ls -l me lista los archivos que contiene una carpeta con sus atributos, puede ser la ubicación actual o una ruta especifica, no muestra los archivos ocultos
++
++ls -la me lista los archivos que contiene una carpeta con sus atributos, puede ser la ubicación actual o una ruta especifica, incluyendo los archivos ocultos
++
++clear limpiar la consola o terminal, o un shorcut crtl + L
++
++mkdir <nombre carpeta> nos permite crear una carpeta
++
++touch <nombre del archivo> nos permite crear un archivo
++
++cat <nombre del archivo> me permite visualizar el contenido del un archivo y lo muestra en el terminal
++
++history nos muestra un historial de los comandos que hemos utilizado
++
++rm <nombre del archivo> me permite borrar un archivo
+\ No newline at end of file
+diff --git a/test.txt b/test.txt
+index 9926483..f4b5b0e 100644
+--- a/test.txt
++++ b/test.txt
+@@ -1 +1,5 @@
+-Hola mundo, este es el segundo commit, tercero, cuarto desde la terminal
++Hola mundo, este es el segundo commit, tercero, cuarto desde la terminal.
++
++Este cambio es desde la rama develop.
++
++Este cambio es desde la rama master
+
+commit 2f9caa966d52284052b53ee6b794a0fabdcc5e27
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sun Jul 24 19:52:21 2022 -0400
+
+    fourth commit made at the terminal
+
+diff --git a/.DS_Store b/.DS_Store
+index 6c7c253..df36517 100644
+Binary files a/.DS_Store and b/.DS_Store differ
+diff --git a/test.txt b/test.txt
+index 6e038aa..9926483 100644
+--- a/test.txt
++++ b/test.txt
+@@ -1 +1 @@
+-Hola mundo, este es el segundo commit, tercero
+\ No newline at end of file
++Hola mundo, este es el segundo commit, tercero, cuarto desde la terminal
+
+commit 5307363ad8fba29d0efacabe7c1e88c1f63ead33
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sun Jul 24 19:14:59 2022 -0400
+
+    thirst commit
+
+diff --git a/.DS_Store b/.DS_Store
+new file mode 100644
+index 0000000..6c7c253
+Binary files /dev/null and b/.DS_Store differ
+diff --git a/test.txt b/test.txt
+index c86e768..6e038aa 100644
+--- a/test.txt
++++ b/test.txt
+@@ -1 +1 @@
+-Hola mundo, este es el segundo commit
+\ No newline at end of file
++Hola mundo, este es el segundo commit, tercero
+\ No newline at end of file
+
+commit 9755c1a25d5015640e3eeeddc3aa96b70a27436c
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sun Jul 24 18:52:58 2022 -0400
+
+    segundo commit
+
+diff --git a/test.txt b/test.txt
+index 37d8675..c86e768 100644
+--- a/test.txt
++++ b/test.txt
+@@ -1 +1 @@
+-Hola mundo
+\ No newline at end of file
++Hola mundo, este es el segundo commit
+\ No newline at end of file
+
+commit 5877290a671d179ad91bb141bab27e480cb4abe6
+Author: Cayo <legalfigueredoc@gmail.com>
+Date:   Sun Jul 24 18:52:07 2022 -0400
+
+    initial commit
+
+diff --git a/test.txt b/test.txt
+new file mode 100644
+index 0000000..37d8675
+--- /dev/null
++++ b/test.txt
+@@ -0,0 +1 @@
++Hola mundo
+\ No newline at end of file
