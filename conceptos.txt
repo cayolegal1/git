@@ -1,0 +1,11 @@
+Directorio: Es la carpeta del proyecto que está en tu disco duro
+
+Staging: Es donde se guardan las modificaciones del archivo antes de enviar la versión final al repositorio (staging es como tener la milanesa empanizada pero no freída).
+
+Repositorio: Es la carpeta donde se guardan las versiones finales de los archivos, todos los que trabajen en el mismo proyecto tienen acceso a esta carpeta y pueden ver qué se ha modificado de un archivo y quién lo realizó.
+
+Estados de un archivo
+Staged: Son los archivos que se encuentran en Staging.
+Unstaged: Son archivos tracked que han sido modificados, pero no han sido guardados los cambios en staging.
+Tracked: Son archivos que están en el repositorio o en staging.
+Untracked: Son todos aquellos archivos que están en el disco duro que no conoce Git.

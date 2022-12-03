@@ -1,3 +1,5 @@
+------------------------------------------------------------------VIM-----------------------------------------------------------------
+
 Vim es un editor de texto muy antiguo que git usa en caso de hacer un commit sin mensaje. Nos tirará en la terminal en donde nos dice que insertemos el mensaje del commit. 
 
 Si nos vamos a la terminal y ponemos 
@@ -19,3 +21,24 @@ presionamos dos puntos ':' seguido de 'wq' y luego confirmamos con enter.
 Quedaría de esta manera:
 
     'esc' + ':wq' + enter
+
+ref: https://codingpotions.com/como-salir-de-vim
+
+------------------------------------------------------------------VIM----------------------------------------------------------------- 
+- git stash 
+
+    Este comando lo que hace es que guarda temporalmente los archivos modificados para que podamos seguir trabajar en otra cosa (cambiar de rama, hacer cambios y efectuar cualesquiera otras operaciones de Git), luego cuando ya tengamos listo lo que estabamos trabajando y queremos ya aplicar esos cambios almacenados temporalmente con stash podemos usar git stash pop. Es decir, este comando guarda (borra) temporalmente esos cambios y los pone de vuelta en nuestro código con git stash pop.
+
+
+- git stash pop 
+
+    Saca del stash los archivos que pusimos allí temporalmente para poder aplicar esos cambios
+
+
+- git reset --soft <previous commit>
+
+    Cuando hicimos un commit de ciertos archivos y queremos eliminar el mensaje de ese commit, pero no los cambios en si como git reset --hard, este elimina el mensaje de ese último commit y deja los cambios de vuelta en el área de staging o para hacer un nuevo mensaje del commit o para seguir trabajando y luego agregar los nuevos cambios al área de staging y hacer el commit correspondiente
+
+- git reset --mixed <previous commit>
+
+    Hace lo mismo que --soft pero cuando elimina el mensaje del commit no vuelve a poner los cambios en el área de staging.
