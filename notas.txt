@@ -1,0 +1,21 @@
+Vim es un editor de texto muy antiguo que git usa en caso de hacer un commit sin mensaje. Nos tirará en la terminal en donde nos dice que insertemos el mensaje del commit. 
+
+Si nos vamos a la terminal y ponemos 
+
+    - vim 'archivo.extension'
+
+Se nos abrirá el archivo que especificamos en la terminal con su contenido. En esa instancia no podremos modificarlo aun, porque todavía no esta en modo de insert (asi lo llamaremos para referirnos al modo de escritura), sino que esta en el modo de opciones. Por lo que tenemos ciertas opciones ya predefinidas que tenemos que respetar. 
+
+Hablemos del modo de escritura, si recien ingresamos vim estará en modo de elegir las opciones por lo que tenemos que presionar la opción 'i' (insert) y luego confirmar con enter 
+
+Si no es la primera vez que ingresamos:
+
+Tenemos que entrar en el modo de opciones con 'esc' luego hacer lo mismo, presionar 'i' y confirmar, luego
+
+    Escribimos lo que tengamos que escribir 
+
+Luego si queremos abandonar vim y guardar los cambios entramos de vuelta en el modo de opciones con 'esc', 
+presionamos dos puntos ':' seguido de 'wq' y luego confirmamos con enter.
+Quedaría de esta manera:
+
+    'esc' + ':wq' + enter
