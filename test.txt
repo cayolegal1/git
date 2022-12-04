@@ -7,3 +7,5 @@ Este cambio es desde la rama master
 Original master
 
 Hola desde vim
+
+Cambio intencional para conflicto
