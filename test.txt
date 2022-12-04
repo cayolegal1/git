@@ -8,4 +8,4 @@ Original master
 
 Hola desde vim 
 
-Conflicto
+Cambio intencional para conflicto
